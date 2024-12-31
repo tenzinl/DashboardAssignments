@@ -1,9 +1,8 @@
 ---
-title: "Homework #1"
+title: "My Storyboard at DACSS - frames"
 output: 
   flexdashboard::flex_dashboard:
-    orientation: columns
-    vertical_layout: fill
+    storyboard: true
 ---
 
 ```{r setup, include=FALSE}
@@ -20,12 +19,6 @@ link=paste0(location,file)
 #getting the data TABLE from the file in the cloud:
 load(file=url(link))
 ```
-
-
-
-
-Column {data-width=650}
------------------------------------------------------------------------
 
 
 
